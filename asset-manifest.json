@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/@laney/react-use-truncate-list/static/css/main.4a4cc5e5.chunk.css",
+    "main.js": "/@laney/react-use-truncate-list/static/js/main.6e2fc574.chunk.js",
+    "main.js.map": "/@laney/react-use-truncate-list/static/js/main.6e2fc574.chunk.js.map",
+    "runtime~main.js": "/@laney/react-use-truncate-list/static/js/runtime~main.04d5bbd6.js",
+    "runtime~main.js.map": "/@laney/react-use-truncate-list/static/js/runtime~main.04d5bbd6.js.map",
+    "static/js/2.ff289d6b.chunk.js": "/@laney/react-use-truncate-list/static/js/2.ff289d6b.chunk.js",
+    "static/js/2.ff289d6b.chunk.js.map": "/@laney/react-use-truncate-list/static/js/2.ff289d6b.chunk.js.map",
+    "index.html": "/@laney/react-use-truncate-list/index.html",
+    "precache-manifest.1d78b76ba47afbbf6294426f02873b1c.js": "/@laney/react-use-truncate-list/precache-manifest.1d78b76ba47afbbf6294426f02873b1c.js",
+    "service-worker.js": "/@laney/react-use-truncate-list/service-worker.js",
+    "static/css/main.4a4cc5e5.chunk.css.map": "/@laney/react-use-truncate-list/static/css/main.4a4cc5e5.chunk.css.map"
+  }
+}
