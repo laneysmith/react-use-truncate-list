@@ -1,6 +1,6 @@
 {
-  "name": "@laney/use-truncate-list-example",
-  "homepage": "https://laneysmith.github.io/@laney/use-truncate-list",
+  "name": "@laney/react-use-truncate-list-example",
+  "homepage": "https://laneysmith.github.io/@laney/react-use-truncate-list",
   "version": "0.0.0",
   "license": "MIT",
   "private": true,
@@ -9,7 +9,7 @@
     "react": "link:../node_modules/react",
     "react-dom": "^16.8.6",
     "react-scripts": "^3.0.1",
-    "@laney/use-truncate-list": "link:.."
+    "@laney/react-use-truncate-list": "link:.."
   },
   "scripts": {
     "start": "react-scripts start",

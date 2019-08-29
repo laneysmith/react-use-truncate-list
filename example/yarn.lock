@@ -994,7 +994,7 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
-"@laney/use-truncate-list@link:..":
+"@laney/react-use-truncate-list@link:..":
   version "0.0.0"
   uid ""
 

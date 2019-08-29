@@ -1,26 +1,51 @@
-# @laney/use-truncate-list
+# @laney/react-use-truncate-list
 
 > a hook that helps handle the logic of truncating long lists and revealing the rest when prompted
 
-[![NPM](https://img.shields.io/npm/v/@laney/use-truncate-list.svg)](https://www.npmjs.com/package/@laney/use-truncate-list) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@laney/react-use-truncate-list.svg)](https://www.npmjs.com/package/@laney/react-use-truncate-list) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save @laney/use-truncate-list
+npm install --save @laney/react-use-truncate-list
 ```
 
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+const App = () => {
+  const cheeses = [
+  'Brie',
+  'Cheddar',
+  'Chhurpi',
+  'Goat',
+  'Gouda',
+  'Havarti',
+  'Provolone',
+  'Raclette',
+  'Roquefort',
+  'Swiss'
+  ]
 
-import { useMyHook } from '@laney/use-truncate-list'
+  const {
+    displayed,
+    remaining,
+    displayAllAction,
+    truncateAction
+  } = useTruncateList(cheeses.length)
 
-const Example = () => {
-  const example = useMyHook()
   return (
-    <div>{example}</div>
+    <div>
+      <h1>Cheeses!</h1>
+      <ul>
+        {cheeses.slice(0, displayed).map(cheese => (
+          <li key={cheese}>{cheese}</li>
+        ))}
+      </ul>
+      {remaining
+        ? <button onClick={displayAllAction}>Show {remaining} More Cheeses</button>
+        : <button onClick={truncateAction}>Show Fewer Cheeses</button>}
+    </div>
   )
 }
 ```
